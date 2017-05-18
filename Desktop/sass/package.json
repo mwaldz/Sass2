@@ -1,0 +1,27 @@
+{
+  "name": "magda",
+  "version": "1.0.0",
+  "description": "Sass test",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwaldz/Sass2.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "magda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwaldz/Sass2/issues"
+  },
+  "homepage": "https://github.com/mwaldz/Sass2#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-sass": "^2.0.0"
+  }
+}
