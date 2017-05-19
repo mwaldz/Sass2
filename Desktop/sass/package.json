@@ -21,7 +21,11 @@
   "homepage": "https://github.com/mwaldz/Sass2#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
+    "async": "^2.4.0"
   }
 }

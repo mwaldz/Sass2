@@ -8,20 +8,10 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'main.css': 'main.sass'
+          'style.css': 'style.sass'
         }
       }
     },
-
-    watch: {
-    scripts: {
-        files: ['sass/*.sass'],
-        tasks: ['sass'],
-        options: {
-            spawn: false,
-        },
-    },
-},
 
     imagemin: {
       dynamic: {
@@ -32,8 +22,17 @@ module.exports = function(grunt) {
           dest: 'images/build/'
         }]
       }
-    }
+    },
 
+    watch: {
+        scripts: {
+        files: ['sass/*.sass'],
+        tasks: ['sass'],
+        options: {
+            spawn: false,
+        },
+      } 
+    }
 
   });
   // Load the plugins tasks 
